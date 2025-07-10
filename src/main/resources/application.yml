@@ -1,0 +1,19 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: user-service
+
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/userdb
+
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://localhost:8761/eureka/
+
+gomaps:
+  maps:
+    api-key: AlzaSyKYGLsss6JX2H29B_RgoVUS6guIFfrK_sZ
